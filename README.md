@@ -16,19 +16,28 @@ This project leverages **LangChain** to build a document-based search and Q&A sy
   Utilizes Cohere's API to re-rank search results for enhanced relevance and accuracy.
 ## **Environment Setup and Installation**
 1. Clone the repository:
-   ```bash
+  ```bash
    git clone https://github.com/your-repo/langchain-qa-system.git
    cd langchain-qa-system
+```
 2. Set up a Python environment:
+  ```bash
    python -m venv env
   source env/bin/activate  # Linux/Mac
   env\Scripts\activate     # Windows
+```
 3. Install dependencies:
+  ```bash
    pip install -r requirements.txt
+```
 4. Set up PostgreSQL:
+  ```bash
     Configure your PostgreSQL database to send notifications.
+```
 5. Run the application:
+  ```bash
    python app.py
+```
 # **LangChain 기반 문서 검색 및 Q&A 시스템**
 이 프로젝트는 **LangChain**을 활용하여 문서 기반 검색 및 Q&A 시스템을 구축합니다. 효율적인 문서 검색, LLM 기반 답변 생성, 할루시네이션 검증, 실시간 데이터베이스 동기화를 지원합니다.
 ## **주요 기능**
